@@ -53,7 +53,9 @@ public:
 	virtual ~DicMainFrame();
 
 protected:
+#ifdef __WXMSW__
 	virtual bool MSWTranslateMessage(WXMSG* pMsg);
+#endif
 	virtual void OnCharHook(wxKeyEvent& event);
     virtual void OnExit(wxCommandEvent& event);
     virtual void OnAbout(wxCommandEvent& event);

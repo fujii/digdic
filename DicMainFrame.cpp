@@ -271,6 +271,7 @@ void DicMainFrame::do_layout()
     // end wxGlade
 }
 
+#ifdef __WXMSW__
 /**
  * メッセージ翻訳
  */
@@ -303,6 +304,7 @@ bool DicMainFrame::MSWTranslateMessage(WXMSG* pMsg)
     }
     return false;
 }
+#endif
 
 /**
  * キー入力フック
