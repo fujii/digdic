@@ -1,0 +1,484 @@
+# digdic.
+# Copyright (C) 2006 kyo
+# This file is distributed under the same license as the digdic package.
+# kyo <digdic@olive.livedoor.com>, 2006.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-10 01:35+0900\n"
+"PO-Revision-Date: 2006-04-10 23:20+0900\n"
+"Last-Translator: kyo <digdic@olive.livedoor.com>\n"
+"Language-Team: kyo <digdic@olive.livedoor.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=Shift_JIS\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: DicMainFrame.cpp:113
+msgid "E&xit\tCtrl+Q"
+msgstr "終了(&X)\tCtrl+Q"
+
+#: DicMainFrame.cpp:114
+msgid "&File"
+msgstr "ファイル(&F)"
+
+#: DicMainFrame.cpp:116
+msgid "Word"
+msgstr "前方一致検索"
+
+#: DicMainFrame.cpp:117
+msgid "End-word"
+msgstr "後方一致検索"
+
+#: DicMainFrame.cpp:118
+msgid "Exact-word"
+msgstr "完全一致検索"
+
+#: DicMainFrame.cpp:119
+msgid "Keyword"
+msgstr "条件検索"
+
+#: DicMainFrame.cpp:120
+msgid "Cross"
+msgstr "クロス検索"
+
+#: DicMainFrame.cpp:121
+msgid "Multi"
+msgstr "複合検索"
+
+#: DicMainFrame.cpp:122 DicMainFrame.cpp:1093
+msgid "Menu"
+msgstr "メニュー"
+
+#: DicMainFrame.cpp:123 DicMainFrame.cpp:1094
+msgid "Copyright"
+msgstr "著作権表示"
+
+#: DicMainFrame.cpp:124
+msgid "&Edit"
+msgstr "編集(&E)"
+
+#: DicMainFrame.cpp:126
+msgid "&Option"
+msgstr "オプション(&O)"
+
+#: DicMainFrame.cpp:128 DicSubBooks.cpp:167
+msgid "Search book"
+msgstr "書籍を検索"
+
+#: DicMainFrame.cpp:130
+msgid "Export settings"
+msgstr "設定をエクスポート"
+
+#: DicMainFrame.cpp:131
+msgid "Import settings"
+msgstr "設定をインポート"
+
+#: DicMainFrame.cpp:132
+msgid "&Tool"
+msgstr "ツール(&T)"
+
+#: DicMainFrame.cpp:134
+msgid "&About digdic"
+msgstr "digdicについて(&A)"
+
+#: DicMainFrame.cpp:135
+msgid "&Help"
+msgstr "ヘルプ(&H)"
+
+#: DicMainFrame.cpp:169
+msgid "The dictionary file is not set. It looks for. "
+msgstr "辞書ファイルが設定されていません。探します。"
+
+#: DicMainFrame.cpp:199 DicMainFrame.cpp:635 DicMainFrame.cpp:824
+#: DicMainFrame.cpp:873 DicSettingDialog.cpp:256 DicSubBooks.cpp:160
+#: DicSubBooks.cpp:181 DicSubBooks.cpp:259
+msgid "digdic"
+msgstr "digdic"
+
+#: DicMainFrame.cpp:203
+msgid "frame_1_statusbar"
+msgstr "frame_1_statusbar"
+
+#: DicMainFrame.cpp:469
+msgid "digdic ver."
+msgstr "digdic ver."
+
+#: DicMainFrame.cpp:470
+msgid "Copyright (C) 2006-2008 NISHIMURA Tsuyoshi, All rights reserved."
+msgstr "Copyright (C) 2006-2008 NISHIMURA Tsuyoshi. All rights reserved."
+
+#: DicMainFrame.cpp:472
+msgid "About digdic"
+msgstr "digdicについて"
+
+#: DicMainFrame.cpp:603 DicSettingDialog.cpp:280
+msgid "Settings"
+msgstr "設定"
+
+#: DicMainFrame.cpp:623
+msgid "Choose a file to impoort"
+msgstr "インポートするファイルを選択してください。"
+
+#: DicMainFrame.cpp:627 DicMainFrame.cpp:669
+msgid "Ini files (*.ini)|*.ini|All files (*.*)|*.*"
+msgstr "INIファイル (*.ini)|*.ini|全てのファイル (*.*)|*.*"
+
+#: DicMainFrame.cpp:634
+msgid ""
+"The present settings will be deleted. Do you import the settings really?"
+msgstr "現在の設定は削除されます。設定をインポートしますか?"
+
+#: DicMainFrame.cpp:665
+msgid "Choose a file to export"
+msgstr "エクスポートするファイルを選択してください。"
+
+#: DicMainFrame.cpp:758
+msgid "Menu not found."
+msgstr "メニューは見つかりませんでした。"
+
+#: DicMainFrame.cpp:780
+msgid "Copyright not found."
+msgstr "著作権表示は見つかりませんでした。"
+
+#: DicMainFrame.cpp:823 DicMainFrame.cpp:872
+msgid " not found."
+msgstr "は見つかりませんでした。"
+
+#: DicMainFrame.cpp:1087
+msgid "Search word"
+msgstr "前方一致検索"
+
+#: DicMainFrame.cpp:1088
+msgid "Search end word"
+msgstr "後方一致検索"
+
+#: DicMainFrame.cpp:1089
+msgid "Search exact word"
+msgstr "完全一致検索"
+
+#: DicMainFrame.cpp:1090
+msgid "Search keyword"
+msgstr "条件検索"
+
+#: DicMainFrame.cpp:1091
+msgid "Search cross"
+msgstr "クロス検索"
+
+#: DicMainFrame.cpp:1092
+msgid "Search multi"
+msgstr "複合検索"
+
+#: DicMainFrame.cpp:1096
+msgid "Search"
+msgstr "検索"
+
+#: DicMainFrame.cpp:1098
+msgid "Back"
+msgstr "戻る"
+
+#: DicMainFrame.cpp:1099
+msgid "Forward"
+msgstr "進む"
+
+#: DicMainFrame.cpp:1101
+msgid "Up"
+msgstr "上へ"
+
+#: DicMainFrame.cpp:1102
+msgid "Down"
+msgstr "下へ"
+
+#: DicMainFrame.cpp:1260
+msgid "All"
+msgstr "全て"
+
+#: DicMainFrame.cpp:1283 DicMainFrame.cpp:1289
+msgid "Multi search cannot be done."
+msgstr "複合検索はできません。"
+
+#: DicSettingDialog.cpp:71
+msgid "OK"
+msgstr "OK"
+
+#: DicSettingDialog.cpp:72
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: DicSettingDialog.cpp:87
+msgid "Up\t[+]"
+msgstr "上へ\t[+]"
+
+#: DicSettingDialog.cpp:88
+msgid "Down\t[-]"
+msgstr "下へ\t[-]"
+
+#: DicSettingDialog.cpp:90
+msgid "Delete\t[DEL]"
+msgstr "削除\t[DEL]"
+
+#: DicSettingDialog.cpp:255
+msgid "Delete this dictionary?"
+msgstr "この辞書を削除しますか?"
+
+#: DicSettingDialog.cpp:319
+msgid "General"
+msgstr "全般"
+
+#: DicSettingDialog.cpp:320 DicSettingDialog.cpp:426
+msgid "Dictionary"
+msgstr "辞書"
+
+#: DicSettingDialog.cpp:321
+msgid "Group"
+msgstr "グループ"
+
+#: DicSettingDialog.cpp:322
+msgid "Shortcut"
+msgstr "ショートカット"
+
+#: DicSettingDialog.cpp:344
+msgid "Common"
+msgstr "共通"
+
+#: DicSettingDialog.cpp:345
+msgid "PageMaxResults"
+msgstr "ページ内最大検索結果数"
+
+#: DicSettingDialog.cpp:346
+msgid "PageMaxBytes"
+msgstr "ページ内最大バイト数"
+
+#: DicSettingDialog.cpp:347
+msgid "SearchMaxResults"
+msgstr "最大検索結果数"
+
+#: DicSettingDialog.cpp:349
+msgid "MainFrame"
+msgstr "メインフレーム"
+
+#: DicSettingDialog.cpp:350
+msgid "Maximize"
+msgstr "最大化"
+
+#: DicSettingDialog.cpp:353
+msgid "Width"
+msgstr "幅"
+
+#: DicSettingDialog.cpp:354
+msgid "Height"
+msgstr "高さ"
+
+#: DicSettingDialog.cpp:356
+msgid "Toolbar"
+msgstr "ツールバー"
+
+#: DicSettingDialog.cpp:357
+msgid "SearchMethod"
+msgstr "検索メソッド"
+
+#: DicSettingDialog.cpp:359
+msgid "Splitter"
+msgstr "スプリッタ"
+
+#: DicSettingDialog.cpp:360 DicSettingDialog.cpp:363 DicSettingDialog.cpp:369
+msgid "SashPosition"
+msgstr "サッシ位置"
+
+#: DicSettingDialog.cpp:362
+msgid "LeftSplitter"
+msgstr "左スプリッタ"
+
+#: DicSettingDialog.cpp:365
+msgid "DicChoice"
+msgstr "辞書チョイス"
+
+#: DicSettingDialog.cpp:366 DicSettingDialog.cpp:372
+msgid "Selection"
+msgstr "選択値"
+
+#: DicSettingDialog.cpp:368
+msgid "MultiKeysSplitter"
+msgstr "複合検索スプリッタ"
+
+#: DicSettingDialog.cpp:371
+msgid "MultiTypeChoice"
+msgstr "複合検索種別チョイス"
+
+#: DicSettingDialog.cpp:374
+msgid "HitList"
+msgstr "ヒットリスト"
+
+#: DicSettingDialog.cpp:375
+msgid "ColumnWidth0"
+msgstr "カラム幅0"
+
+#: DicSettingDialog.cpp:376
+msgid "ColumnWidth1"
+msgstr "カラム幅1"
+
+#: DicSettingDialog.cpp:378
+msgid "HtmlWin"
+msgstr "HTMLウィンドウ"
+
+#: DicSettingDialog.cpp:384
+msgid "FontFaceFixed"
+msgstr "フォントフェイス固定"
+
+#: DicSettingDialog.cpp:385
+msgid "FontFaceNormal"
+msgstr "フォントフェイス通常"
+
+#: DicSettingDialog.cpp:386
+msgid "FontsSize0"
+msgstr "フォントサイズ0"
+
+#: DicSettingDialog.cpp:387
+msgid "FontsSize1"
+msgstr "フォントサイズ1"
+
+#: DicSettingDialog.cpp:388
+msgid "FontsSize2"
+msgstr "フォントサイズ2"
+
+#: DicSettingDialog.cpp:389
+msgid "FontsSize3"
+msgstr "フォントサイズ3"
+
+#: DicSettingDialog.cpp:390
+msgid "FontsSize4"
+msgstr "フォントサイズ4"
+
+#: DicSettingDialog.cpp:391
+msgid "FontsSize5"
+msgstr "フォントサイズ5"
+
+#: DicSettingDialog.cpp:392
+msgid "FontsSize6"
+msgstr "フォントサイズ6"
+
+#: DicSettingDialog.cpp:394
+msgid "Html"
+msgstr "HTML"
+
+#: DicSettingDialog.cpp:395
+msgid "HtmlHead"
+msgstr "HtmlHead"
+
+#: DicSettingDialog.cpp:396
+msgid "HtmlFoot"
+msgstr "HtmlFoot"
+
+#: DicSettingDialog.cpp:397
+msgid "KeywordHead"
+msgstr "KeywordHead"
+
+#: DicSettingDialog.cpp:398
+msgid "KeywordFoot"
+msgstr "KeywordFoot"
+
+#: DicSettingDialog.cpp:399
+msgid "DecorationHead"
+msgstr "DecorationHead"
+
+#: DicSettingDialog.cpp:400
+msgid "DecorationFoot"
+msgstr "DecorationFoot"
+
+#: DicSettingDialog.cpp:401
+msgid "EmphasisHead"
+msgstr "EmphasisHead"
+
+#: DicSettingDialog.cpp:402
+msgid "EmphasisFoot"
+msgstr "EmphasisFoot"
+
+#: DicSettingDialog.cpp:403
+msgid "SuperscriptHead"
+msgstr "SuperscriptHead"
+
+#: DicSettingDialog.cpp:404
+msgid "SuperscriptFoot"
+msgstr "SuperscriptFoot"
+
+#: DicSettingDialog.cpp:405
+msgid "SubscriptHead"
+msgstr "SubscriptHead"
+
+#: DicSettingDialog.cpp:406
+msgid "SubscriptFoot"
+msgstr "SubscriptFoot"
+
+#: DicSettingDialog.cpp:407
+msgid "NewLine"
+msgstr "NewLine"
+
+#: DicSettingDialog.cpp:408
+msgid "NoNewlineHead"
+msgstr "NoNewlineHead"
+
+#: DicSettingDialog.cpp:409
+msgid "NoNewlineFoot"
+msgstr "NoNewlineFoot"
+
+#: DicSettingDialog.cpp:412
+msgid "Alias"
+msgstr "別名"
+
+#: DicSettingDialog.cpp:413
+msgid "Path"
+msgstr "パス"
+
+#: DicSettingDialog.cpp:414
+msgid "Subbook"
+msgstr "副本"
+
+#: DicSettingDialog.cpp:415
+msgid "Appendix"
+msgstr "アペンディクス"
+
+#: DicSettingDialog.cpp:416 DicSettingDialog.cpp:614
+msgid "Enabled"
+msgstr "有効"
+
+#: DicSettingDialog.cpp:424
+msgid "Name"
+msgstr "名前"
+
+#: DicSettingDialog.cpp:425
+msgid "Icon"
+msgstr "アイコン"
+
+#: DicSettingDialog.cpp:427
+msgid "Search method"
+msgstr "検索メソッド"
+
+#: DicSettingDialog.cpp:428
+msgid "Multi mode"
+msgstr "複合検索モード"
+
+#: DicSettingDialog.cpp:614
+msgid "Disabled"
+msgstr "無効"
+
+#: DicSubBooks.cpp:148
+msgid "Choose a directory."
+msgstr "ディレクトリを選択してください。"
+
+#: DicSubBooks.cpp:159
+msgid "Do you register all books automatically?"
+msgstr "全ての書籍を自動的に登録しますか？"
+
+#: DicSubBooks.cpp:175
+msgid "Search book ended."
+msgstr "書籍の検索が終了しました。"
+
+#: DicSubBooks.cpp:180
+msgid "Save book list?"
+msgstr "書籍のリストを保存しますか?"
+
+#: DicSubBooks.cpp:254
+msgid "Do you add this dictionary?"
+msgstr "この辞書を追加しますか?"

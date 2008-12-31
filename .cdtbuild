@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="digdic.cdt.managedbuild.target.gnu.cygwin.exe.1176322774" name="実行可能 (Gnu on Windows)" projectType="cdt.managedbuild.target.gnu.cygwin.exe">
+<configuration artifactExtension="exe" artifactName="digdic" cleanCommand="rm -rf" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.265584863" name="Debug" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.447260847" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.1954328" name="GCC C コンパイラー" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.1928095865" name="GCC C++ コンパイラー" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
+<option id="gnu.cpp.compiler.option.preprocessor.def.90894233" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="NO_GCC_PRAGMA"/>
+</option>
+<option id="gnu.cpp.compiler.option.include.paths.657925695" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="/MinGW/lib/wx/include/msw-unicode-release-static-2.8"/>
+<listOptionValue builtIn="false" value="/MinGW/include/wx-2.8"/>
+<listOptionValue builtIn="false" value="/MinGW/include"/>
+</option>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.88034215" name="GCC C リンカー" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.534207462" name="GCC C++ リンカー" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug">
+<option id="gnu.cpp.link.option.libs.205559441" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="eb"/>
+<listOptionValue builtIn="false" value="wxregexu-2.8"/>
+<listOptionValue builtIn="false" value="wxexpat-2.8"/>
+<listOptionValue builtIn="false" value="wxtiff-2.8"/>
+<listOptionValue builtIn="false" value="wxjpeg-2.8"/>
+<listOptionValue builtIn="false" value="wxpng-2.8"/>
+<listOptionValue builtIn="false" value="z"/>
+<listOptionValue builtIn="false" value="unicows"/>
+<listOptionValue builtIn="false" value="rpcrt4"/>
+<listOptionValue builtIn="false" value="oleaut32"/>
+<listOptionValue builtIn="false" value="ole32"/>
+<listOptionValue builtIn="false" value="uuid"/>
+<listOptionValue builtIn="false" value="iconv"/>
+<listOptionValue builtIn="false" value="winspool"/>
+<listOptionValue builtIn="false" value="winmm"/>
+<listOptionValue builtIn="false" value="shell32"/>
+<listOptionValue builtIn="false" value="comctl32"/>
+<listOptionValue builtIn="false" value="comdlg32"/>
+<listOptionValue builtIn="false" value="ctl3d32"/>
+<listOptionValue builtIn="false" value="advapi32"/>
+<listOptionValue builtIn="false" value="wsock32"/>
+<listOptionValue builtIn="false" value="gdi32"/>
+</option>
+<option id="gnu.cpp.link.option.userobjs.307083831" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="../digdic_rc.o"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_propgrid-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_xrc-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_qa-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_html-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_adv-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_core-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_baseu_xml-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_baseu_net-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_baseu-2.8.a"/>
+</option>
+<option id="gnu.cpp.link.option.paths.542696418" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="/MinGW/lib"/>
+</option>
+<option id="gnu.cpp.link.option.other.1450993473" superClass="gnu.cpp.link.option.other"/>
+<option id="gnu.cpp.link.option.flags.1566928138" superClass="gnu.cpp.link.option.flags" value="-Wl,--subsystem,windows -mwindows" valueType="string"/>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.572939121" name="GCC アセンブラー" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug"/>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="exe" artifactName="digdic" cleanCommand="rm -rf" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.release.485410679" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.release" postannouncebuildStep="" postbuildStep="strip digdic.exe" preannouncebuildStep="" prebuildStep="">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.release.1365531497" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.release">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.1770033928" name="GCC C コンパイラー" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.824214880" name="GCC C++ コンパイラー" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release">
+<option id="gnu.cpp.compiler.option.preprocessor.def.1314139707" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="NO_GCC_PRAGMA"/>
+</option>
+<option id="gnu.cpp.compiler.option.include.paths.1926683975" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="/MinGW/lib/wx/include/msw-unicode-release-static-2.8"/>
+<listOptionValue builtIn="false" value="/MinGW/include/wx-2.8"/>
+<listOptionValue builtIn="false" value="/MinGW/include"/>
+</option>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.1806488984" name="GCC C リンカー" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.850462812" name="GCC C++ リンカー" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release">
+<option id="gnu.cpp.link.option.libs.616245200" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="eb"/>
+<listOptionValue builtIn="false" value="wxregexu-2.8"/>
+<listOptionValue builtIn="false" value="wxexpat-2.8"/>
+<listOptionValue builtIn="false" value="wxtiff-2.8"/>
+<listOptionValue builtIn="false" value="wxjpeg-2.8"/>
+<listOptionValue builtIn="false" value="wxpng-2.8"/>
+<listOptionValue builtIn="false" value="z"/>
+<listOptionValue builtIn="false" value="unicows"/>
+<listOptionValue builtIn="false" value="rpcrt4"/>
+<listOptionValue builtIn="false" value="oleaut32"/>
+<listOptionValue builtIn="false" value="ole32"/>
+<listOptionValue builtIn="false" value="uuid"/>
+<listOptionValue builtIn="false" value="iconv"/>
+<listOptionValue builtIn="false" value="winspool"/>
+<listOptionValue builtIn="false" value="winmm"/>
+<listOptionValue builtIn="false" value="shell32"/>
+<listOptionValue builtIn="false" value="comctl32"/>
+<listOptionValue builtIn="false" value="comdlg32"/>
+<listOptionValue builtIn="false" value="ctl3d32"/>
+<listOptionValue builtIn="false" value="advapi32"/>
+<listOptionValue builtIn="false" value="wsock32"/>
+<listOptionValue builtIn="false" value="gdi32"/>
+</option>
+<option id="gnu.cpp.link.option.paths.432949608" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="/MinGW/lib"/>
+</option>
+<option id="gnu.cpp.link.option.flags.1361515687" superClass="gnu.cpp.link.option.flags" value="-Wl,--subsystem,windows -mwindows" valueType="string"/>
+<option id="gnu.cpp.link.option.userobjs.288368491" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="../digdic_rc.o"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_propgrid-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_xrc-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_qa-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_html-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_adv-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_mswu_core-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_baseu_xml-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_baseu_net-2.8.a"/>
+<listOptionValue builtIn="false" value="/MinGW/lib/libwx_baseu-2.8.a"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release.1352276599" name="GCC アセンブラー" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release"/>
+<macros/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

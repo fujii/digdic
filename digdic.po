@@ -1,0 +1,484 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-10 01:35+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: DicMainFrame.cpp:113
+msgid "E&xit\tCtrl+Q"
+msgstr ""
+
+#: DicMainFrame.cpp:114
+msgid "&File"
+msgstr ""
+
+#: DicMainFrame.cpp:116
+msgid "Word"
+msgstr ""
+
+#: DicMainFrame.cpp:117
+msgid "End-word"
+msgstr ""
+
+#: DicMainFrame.cpp:118
+msgid "Exact-word"
+msgstr ""
+
+#: DicMainFrame.cpp:119
+msgid "Keyword"
+msgstr ""
+
+#: DicMainFrame.cpp:120
+msgid "Cross"
+msgstr ""
+
+#: DicMainFrame.cpp:121
+msgid "Multi"
+msgstr ""
+
+#: DicMainFrame.cpp:122 DicMainFrame.cpp:1093
+msgid "Menu"
+msgstr ""
+
+#: DicMainFrame.cpp:123 DicMainFrame.cpp:1094
+msgid "Copyright"
+msgstr ""
+
+#: DicMainFrame.cpp:124
+msgid "&Edit"
+msgstr ""
+
+#: DicMainFrame.cpp:126
+msgid "&Option"
+msgstr ""
+
+#: DicMainFrame.cpp:128 DicSubBooks.cpp:167
+msgid "Search book"
+msgstr ""
+
+#: DicMainFrame.cpp:130
+msgid "Export settings"
+msgstr ""
+
+#: DicMainFrame.cpp:131
+msgid "Import settings"
+msgstr ""
+
+#: DicMainFrame.cpp:132
+msgid "&Tool"
+msgstr ""
+
+#: DicMainFrame.cpp:134
+msgid "&About digdic"
+msgstr ""
+
+#: DicMainFrame.cpp:135
+msgid "&Help"
+msgstr ""
+
+#: DicMainFrame.cpp:169
+msgid "The dictionary file is not set. It looks for. "
+msgstr ""
+
+#: DicMainFrame.cpp:199 DicMainFrame.cpp:635 DicMainFrame.cpp:824
+#: DicMainFrame.cpp:873 DicSettingDialog.cpp:256 DicSubBooks.cpp:160
+#: DicSubBooks.cpp:181 DicSubBooks.cpp:259
+msgid "digdic"
+msgstr ""
+
+#: DicMainFrame.cpp:203
+msgid "frame_1_statusbar"
+msgstr ""
+
+#: DicMainFrame.cpp:469
+msgid "digdic ver."
+msgstr ""
+
+#: DicMainFrame.cpp:470
+msgid "Copyright (C) 2006-2008 NISHIMURA Tsuyoshi, All rights reserved."
+msgstr ""
+
+#: DicMainFrame.cpp:472
+msgid "About digdic"
+msgstr ""
+
+#: DicMainFrame.cpp:603 DicSettingDialog.cpp:280
+msgid "Settings"
+msgstr ""
+
+#: DicMainFrame.cpp:623
+msgid "Choose a file to impoort"
+msgstr ""
+
+#: DicMainFrame.cpp:627 DicMainFrame.cpp:669
+msgid "Ini files (*.ini)|*.ini|All files (*.*)|*.*"
+msgstr ""
+
+#: DicMainFrame.cpp:634
+msgid ""
+"The present settings will be deleted. Do you import the settings really?"
+msgstr ""
+
+#: DicMainFrame.cpp:665
+msgid "Choose a file to export"
+msgstr ""
+
+#: DicMainFrame.cpp:758
+msgid "Menu not found."
+msgstr ""
+
+#: DicMainFrame.cpp:780
+msgid "Copyright not found."
+msgstr ""
+
+#: DicMainFrame.cpp:823 DicMainFrame.cpp:872
+msgid " not found."
+msgstr ""
+
+#: DicMainFrame.cpp:1087
+msgid "Search word"
+msgstr ""
+
+#: DicMainFrame.cpp:1088
+msgid "Search end word"
+msgstr ""
+
+#: DicMainFrame.cpp:1089
+msgid "Search exact word"
+msgstr ""
+
+#: DicMainFrame.cpp:1090
+msgid "Search keyword"
+msgstr ""
+
+#: DicMainFrame.cpp:1091
+msgid "Search cross"
+msgstr ""
+
+#: DicMainFrame.cpp:1092
+msgid "Search multi"
+msgstr ""
+
+#: DicMainFrame.cpp:1096
+msgid "Search"
+msgstr ""
+
+#: DicMainFrame.cpp:1098
+msgid "Back"
+msgstr ""
+
+#: DicMainFrame.cpp:1099
+msgid "Forward"
+msgstr ""
+
+#: DicMainFrame.cpp:1101
+msgid "Up"
+msgstr ""
+
+#: DicMainFrame.cpp:1102
+msgid "Down"
+msgstr ""
+
+#: DicMainFrame.cpp:1260
+msgid "All"
+msgstr ""
+
+#: DicMainFrame.cpp:1283 DicMainFrame.cpp:1289
+msgid "Multi search cannot be done."
+msgstr ""
+
+#: DicSettingDialog.cpp:71
+msgid "OK"
+msgstr ""
+
+#: DicSettingDialog.cpp:72
+msgid "Cancel"
+msgstr ""
+
+#: DicSettingDialog.cpp:87
+msgid "Up\t[+]"
+msgstr ""
+
+#: DicSettingDialog.cpp:88
+msgid "Down\t[-]"
+msgstr ""
+
+#: DicSettingDialog.cpp:90
+msgid "Delete\t[DEL]"
+msgstr ""
+
+#: DicSettingDialog.cpp:255
+msgid "Delete this dictionary?"
+msgstr ""
+
+#: DicSettingDialog.cpp:319
+msgid "General"
+msgstr ""
+
+#: DicSettingDialog.cpp:320 DicSettingDialog.cpp:426
+msgid "Dictionary"
+msgstr ""
+
+#: DicSettingDialog.cpp:321
+msgid "Group"
+msgstr ""
+
+#: DicSettingDialog.cpp:322
+msgid "Shortcut"
+msgstr ""
+
+#: DicSettingDialog.cpp:344
+msgid "Common"
+msgstr ""
+
+#: DicSettingDialog.cpp:345
+msgid "PageMaxResults"
+msgstr ""
+
+#: DicSettingDialog.cpp:346
+msgid "PageMaxBytes"
+msgstr ""
+
+#: DicSettingDialog.cpp:347
+msgid "SearchMaxResults"
+msgstr ""
+
+#: DicSettingDialog.cpp:349
+msgid "MainFrame"
+msgstr ""
+
+#: DicSettingDialog.cpp:350
+msgid "Maximize"
+msgstr ""
+
+#: DicSettingDialog.cpp:353
+msgid "Width"
+msgstr ""
+
+#: DicSettingDialog.cpp:354
+msgid "Height"
+msgstr ""
+
+#: DicSettingDialog.cpp:356
+msgid "Toolbar"
+msgstr ""
+
+#: DicSettingDialog.cpp:357
+msgid "SearchMethod"
+msgstr ""
+
+#: DicSettingDialog.cpp:359
+msgid "Splitter"
+msgstr ""
+
+#: DicSettingDialog.cpp:360 DicSettingDialog.cpp:363 DicSettingDialog.cpp:369
+msgid "SashPosition"
+msgstr ""
+
+#: DicSettingDialog.cpp:362
+msgid "LeftSplitter"
+msgstr ""
+
+#: DicSettingDialog.cpp:365
+msgid "DicChoice"
+msgstr ""
+
+#: DicSettingDialog.cpp:366 DicSettingDialog.cpp:372
+msgid "Selection"
+msgstr ""
+
+#: DicSettingDialog.cpp:368
+msgid "MultiKeysSplitter"
+msgstr ""
+
+#: DicSettingDialog.cpp:371
+msgid "MultiTypeChoice"
+msgstr ""
+
+#: DicSettingDialog.cpp:374
+msgid "HitList"
+msgstr ""
+
+#: DicSettingDialog.cpp:375
+msgid "ColumnWidth0"
+msgstr ""
+
+#: DicSettingDialog.cpp:376
+msgid "ColumnWidth1"
+msgstr ""
+
+#: DicSettingDialog.cpp:378
+msgid "HtmlWin"
+msgstr ""
+
+#: DicSettingDialog.cpp:384
+msgid "FontFaceFixed"
+msgstr ""
+
+#: DicSettingDialog.cpp:385
+msgid "FontFaceNormal"
+msgstr ""
+
+#: DicSettingDialog.cpp:386
+msgid "FontsSize0"
+msgstr ""
+
+#: DicSettingDialog.cpp:387
+msgid "FontsSize1"
+msgstr ""
+
+#: DicSettingDialog.cpp:388
+msgid "FontsSize2"
+msgstr ""
+
+#: DicSettingDialog.cpp:389
+msgid "FontsSize3"
+msgstr ""
+
+#: DicSettingDialog.cpp:390
+msgid "FontsSize4"
+msgstr ""
+
+#: DicSettingDialog.cpp:391
+msgid "FontsSize5"
+msgstr ""
+
+#: DicSettingDialog.cpp:392
+msgid "FontsSize6"
+msgstr ""
+
+#: DicSettingDialog.cpp:394
+msgid "Html"
+msgstr ""
+
+#: DicSettingDialog.cpp:395
+msgid "HtmlHead"
+msgstr ""
+
+#: DicSettingDialog.cpp:396
+msgid "HtmlFoot"
+msgstr ""
+
+#: DicSettingDialog.cpp:397
+msgid "KeywordHead"
+msgstr ""
+
+#: DicSettingDialog.cpp:398
+msgid "KeywordFoot"
+msgstr ""
+
+#: DicSettingDialog.cpp:399
+msgid "DecorationHead"
+msgstr ""
+
+#: DicSettingDialog.cpp:400
+msgid "DecorationFoot"
+msgstr ""
+
+#: DicSettingDialog.cpp:401
+msgid "EmphasisHead"
+msgstr ""
+
+#: DicSettingDialog.cpp:402
+msgid "EmphasisFoot"
+msgstr ""
+
+#: DicSettingDialog.cpp:403
+msgid "SuperscriptHead"
+msgstr ""
+
+#: DicSettingDialog.cpp:404
+msgid "SuperscriptFoot"
+msgstr ""
+
+#: DicSettingDialog.cpp:405
+msgid "SubscriptHead"
+msgstr ""
+
+#: DicSettingDialog.cpp:406
+msgid "SubscriptFoot"
+msgstr ""
+
+#: DicSettingDialog.cpp:407
+msgid "NewLine"
+msgstr ""
+
+#: DicSettingDialog.cpp:408
+msgid "NoNewlineHead"
+msgstr ""
+
+#: DicSettingDialog.cpp:409
+msgid "NoNewlineFoot"
+msgstr ""
+
+#: DicSettingDialog.cpp:412
+msgid "Alias"
+msgstr ""
+
+#: DicSettingDialog.cpp:413
+msgid "Path"
+msgstr ""
+
+#: DicSettingDialog.cpp:414
+msgid "Subbook"
+msgstr ""
+
+#: DicSettingDialog.cpp:415
+msgid "Appendix"
+msgstr ""
+
+#: DicSettingDialog.cpp:416 DicSettingDialog.cpp:614
+msgid "Enabled"
+msgstr ""
+
+#: DicSettingDialog.cpp:424
+msgid "Name"
+msgstr ""
+
+#: DicSettingDialog.cpp:425
+msgid "Icon"
+msgstr ""
+
+#: DicSettingDialog.cpp:427
+msgid "Search method"
+msgstr ""
+
+#: DicSettingDialog.cpp:428
+msgid "Multi mode"
+msgstr ""
+
+#: DicSettingDialog.cpp:614
+msgid "Disabled"
+msgstr ""
+
+#: DicSubBooks.cpp:148
+msgid "Choose a directory."
+msgstr ""
+
+#: DicSubBooks.cpp:159
+msgid "Do you register all books automatically?"
+msgstr ""
+
+#: DicSubBooks.cpp:175
+msgid "Search book ended."
+msgstr ""
+
+#: DicSubBooks.cpp:180
+msgid "Save book list?"
+msgstr ""
+
+#: DicSubBooks.cpp:254
+msgid "Do you add this dictionary?"
+msgstr ""
