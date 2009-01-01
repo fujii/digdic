@@ -1,9 +1,9 @@
 
-AM_CPPFLAGS = @WX_CPPFLAGS@
-AM_LDFLAGS = @WX_LIBS@
+AM_CPPFLAGS = @WX_CPPFLAGS@ @EBCONF_PTHREAD_CPPFLAGS@
 
 bin_PROGRAMS = digdic
 
+digdic_LDADD = @WX_LIBS@ @EBCONF_EBLIBS@
 digdic_SOURCES = \
 	DicBitmaps.cpp \
 	DicBitmaps.h \
