@@ -17,7 +17,7 @@ AM_OPTIONS_WXCONFIG
 
 # Checks for libraries.
 eb_LIB_EB4
-AM_PATH_WXCONFIG([2.6.0])
+AM_PATH_WXCONFIG([2.6.0], , , [core,base,html,propgrid])
 AM_PATH_WXRC
 
 # Checks for header files.
