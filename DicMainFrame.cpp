@@ -800,13 +800,13 @@ void DicMainFrame::Search()
 			
 			m_multiKeysGrid->CommitChanges(); // •ÏX’l‚ð”½‰f‚³‚¹‚é
 			
-			EB_Multi_Search_Code multiId = (EB_Multi_Search_Code)m_multiTypeChoice->GetClientData(m_multiTypeChoice->GetSelection());
+			EB_Multi_Search_Code multiId = (EB_Multi_Search_Code)(intptr_t)m_multiTypeChoice->GetClientData(m_multiTypeChoice->GetSelection());
 			wxArrayString keys;
 			wxPGId id = m_multiKeysGrid->GetFirst();
 			while (id.IsOk())
 			{
 				keys.Add(m_multiKeysGrid->GetPropertyValueAsString(id));
-				id = m_multiKeysGrid->GetNextSibling(id);
+				id = m_multiKeysGrid->GetNextSiblingProperty(id);
 			}
 			DicSubbook* subbook = GetCurSubbook();
 			if (!subbook)
@@ -1315,7 +1315,7 @@ void DicMainFrame::ShowMultiSearchEntry()
 	m_multiKeysGrid->Clear();
 		
 	// ‘è–Ú‚ð’Ç‰Á‚·‚éB
-	EB_Multi_Search_Code code = (EB_Multi_Search_Code)m_multiTypeChoice->GetClientData(m_multiTypeChoice->GetSelection());
+	EB_Multi_Search_Code code = (EB_Multi_Search_Code)(intptr_t)m_multiTypeChoice->GetClientData(m_multiTypeChoice->GetSelection());
 	DicSubbook* subbook = GetCurSubbook();
 	int entryCount = subbook->GetMultiEntryCount(code);
 	for (int i = 0; i < entryCount; ++i)
@@ -1348,9 +1348,9 @@ void DicMainFrame::PopupMultiCandidates()
 	m_multiKeysGrid->SelectProperty(m_multiKeysGrid->GetSelectedProperty(), true);
 	
 	DicSubbook* subbook = GetCurSubbook();
-	EB_Multi_Search_Code code = (EB_Multi_Search_Code)m_multiTypeChoice->GetClientData(m_multiTypeChoice->GetSelection());
+	EB_Multi_Search_Code code = (EB_Multi_Search_Code)(intptr_t)m_multiTypeChoice->GetClientData(m_multiTypeChoice->GetSelection());
 	wxPGId id = m_multiKeysGrid->GetSelectedProperty();
-	int index = (int)m_multiKeysGrid->GetPropertyClientData(id);
+	int index = (intptr_t)m_multiKeysGrid->GetPropertyClientData(id);
 	if (!subbook->HasMultiEntryCandidates(code, index))
 	{
 		return;
